@@ -1,3 +1,8 @@
+# Files without extensions
+*
+!/**/
+!/*.*/
+
 # Binaries for programs and plugins
 *.exe
 *.exe~
@@ -5,11 +10,6 @@
 *.so
 *.dylib
 *.sh
-
-# Files without extensions
-*
-!/**/
-!*.*
 
 # Test binary, built with `go test -c`
 *.test
