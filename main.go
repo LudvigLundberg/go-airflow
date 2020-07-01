@@ -27,7 +27,7 @@ func listDags() {
 	dags, err := cli.ListDags()
 
 	if err != nil {
-		panic("Error: " + err.Error())
+		panic(err)
 	}
 
 	for _, dag := range dags {
