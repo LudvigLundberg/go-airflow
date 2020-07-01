@@ -1,2 +1,2 @@
 # go-airflow
-A small go wrapper Apache Airflow
+A small go wrapper for Apache Airflow commands
