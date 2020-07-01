@@ -4,6 +4,12 @@
 *.dll
 *.so
 *.dylib
+*.sh
+
+# Files without extensions
+*
+!/**/
+!*.*
 
 # Test binary, built with `go test -c`
 *.test
